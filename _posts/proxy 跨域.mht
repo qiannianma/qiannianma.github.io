@@ -1,0 +1,299 @@
+Date: Mon, 10 May 2021 15:21:50 +0800
+Message-ID: <0002761c$cf678f40$3eb1b479$YinXiangBiJi>
+MIME-Version: 1.0
+Content-Type: text/html; 
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-Mailer: Evernote® v6.21.85.3139
+
+<html>
+<head>
+  <title>Evernote Export</title>
+  <basefont face=3D"Segoe UI" size=3D"2" />
+  <meta http-equiv=3D"Content-Type" =
+content=3D"text/html;charset=3Dutf-8" />
+  <meta name=3D"exporter-version" content=3D"YXBJ Windows/603139 (en-US, =
+DDL); Windows/10.0.0 (Win64); EDAMVersion=3DV2;"/>
+  <style>
+    body, td {
+      font-family: Segoe UI;
+      font-size: 10pt;
+    }
+  </style>
+</head>
+<body>
+<a name=3D"488"/>
+
+<div>=0A<span><div><span style=3D"font-size: 14pt;">Proxy=C2=A0 =
+Setting</span></div><div><span style=3D"font-size: =
+14pt;"><br/></span></div><div><span style=3D"font-size: 14pt;"><a =
+href=3D"http://proxy.wdf.sap.corp/" style=3D"font-size: =
+14pt;">http://proxy.wdf.sap.corp</a>=C2=A0=C2=A08080</span></div><div><sp=
+an style=3D"font-size: =
+14pt;">localhost;127.0.0.1;*.local;*.sap.corp;10.*;*.corp.sap;*.<a =
+href=3D"http://co.sap.com%3b%2a.sap.biz/" style=3D"font-size: =
+14pt;">co.sap.com;*.sap.biz</a></span></div><div><br/></div><div><font =
+style=3D"font-size: 14pt;"><br/></font></div><div><font =
+style=3D"font-size: 14pt;">proxy</font></div><div><font =
+style=3D"font-size: 14pt;"><br/></font></div><div><a =
+href=3D"https://sapui5.hana.ondemand.com/#/topic/5bb388fc289d44dca886c8fa=
+25da466e.html#loio5bb388fc289d44dca886c8fa25da466e__CORSAnywhere"><font =
+style=3D"font-size: =
+14pt;">https://sapui5.hana.ondemand.com/#/topic/5bb388fc289d44dca886c8fa2=
+5da466e.html#loio5bb388fc289d44dca886c8fa25da466e__CORSAnywhere</font></a=
+></div><div><br/></div><div><br/></div><div><span =
+style=3D"background-color: rgb(30, 30, 30); font-size: 18px; =
+white-space: pre;"><br/></span></div><div><span style=3D"font-size: =
+14pt; color: rgb(86, 156, 214); font-family: =
+Consolas;">=E8=B7=A8=E5=9F=9F=EF=BC=9Anpm install =
+proxy-----&gt;=E5=88=9B=E5=BB=BAproxy.js</span></div><div><span =
+style=3D"font-size: 14pt;"><a =
+href=3D"https://www.npmjs.com/package/proxy" style=3D"font-size: 14pt; =
+font-family: =
+Consolas;">https://www.npmjs.com/package/proxy</a></span></div><div><br/>=
+</div><div style=3D"background-color: rgb(30, 30, 30); font-size: 18px; =
+white-space: pre;"><span style=3D"font-size: 18px; color: rgb(86, 156, =
+214); font-family: Consolas, &quot;Courier New&quot;, monospace; =
+line-height: 24px;">var</span> <span style=3D"font-size: 18px; color: =
+rgb(156, 220, 254); font-family: Consolas, &quot;Courier New&quot;, =
+monospace; line-height: 24px;">cors_proxy</span> <span =
+style=3D"font-size: 18px; color: rgb(212, 212, 212); font-family: =
+Consolas, &quot;Courier New&quot;, monospace; line-height: =
+24px;">=3D</span> <span style=3D"font-size: 18px; color: rgb(220, 220, =
+170); font-family: Consolas, &quot;Courier New&quot;, monospace; =
+line-height: 24px;">require</span><span style=3D"font-size: 18px; color: =
+rgb(212, 212, 212); font-family: Consolas, &quot;Courier New&quot;, =
+monospace; line-height: 24px;">(</span><span style=3D"font-size: 18px; =
+color: rgb(206, 145, 120); font-family: Consolas, &quot;Courier =
+New&quot;, monospace; line-height: 24px;">'cors-anywhere'</span><span =
+style=3D"font-size: 18px; color: rgb(212, 212, 212); font-family: =
+Consolas, &quot;Courier New&quot;, monospace; line-height: =
+24px;">);</span></div><div style=3D"background-color: rgb(30, 30, 30); =
+font-size: 18px; white-space: pre;"><br/></div><div =
+style=3D"background-color: rgb(30, 30, 30); font-size: 18px; =
+white-space: pre;"><span style=3D"font-size: 18px; color: rgb(106, 153, =
+85); font-family: Consolas, &quot;Courier New&quot;, monospace; =
+line-height: 24px;">// Listen on a specific IP Address</span></div><div =
+style=3D"background-color: rgb(30, 30, 30); font-size: 18px; =
+white-space: pre;"><span style=3D"font-size: 18px; color: rgb(86, 156, =
+214); font-family: Consolas, &quot;Courier New&quot;, monospace; =
+line-height: 24px;">var</span> <span style=3D"font-size: 18px; color: =
+rgb(156, 220, 254); font-family: Consolas, &quot;Courier New&quot;, =
+monospace; line-height: 24px;">host</span> <span style=3D"font-size: =
+18px; color: rgb(212, 212, 212); font-family: Consolas, &quot;Courier =
+New&quot;, monospace; line-height: 24px;">=3D</span> <span =
+style=3D"font-size: 18px; color: rgb(206, 145, 120); font-family: =
+Consolas, &quot;Courier New&quot;, monospace; line-height: =
+24px;">'localhost'</span><span style=3D"font-size: 18px; color: rgb(212, =
+212, 212); font-family: Consolas, &quot;Courier New&quot;, monospace; =
+line-height: 24px;">;</span></div><div style=3D"background-color: =
+rgb(30, 30, 30); font-size: 18px; white-space: pre;"><br/></div><div =
+style=3D"background-color: rgb(30, 30, 30); font-size: 18px; =
+white-space: pre;"><span style=3D"font-size: 18px; color: rgb(106, 153, =
+85); font-family: Consolas, &quot;Courier New&quot;, monospace; =
+line-height: 24px;">// Listen on a specific port, adjust if =
+necessary</span></div><div style=3D"background-color: rgb(30, 30, 30); =
+font-size: 18px; white-space: pre;"><span style=3D"font-size: 18px; =
+color: rgb(86, 156, 214); font-family: Consolas, &quot;Courier =
+New&quot;, monospace; line-height: 24px;">var</span> <span =
+style=3D"font-size: 18px; color: rgb(156, 220, 254); font-family: =
+Consolas, &quot;Courier New&quot;, monospace; line-height: =
+24px;">port</span> <span style=3D"font-size: 18px; color: rgb(212, 212, =
+212); font-family: Consolas, &quot;Courier New&quot;, monospace; =
+line-height: 24px;">=3D</span> <span style=3D"font-size: 18px; color: =
+rgb(181, 206, 168); font-family: Consolas, &quot;Courier New&quot;, =
+monospace; line-height: 24px;">8081</span><span style=3D"font-size: =
+18px; color: rgb(212, 212, 212); font-family: Consolas, &quot;Courier =
+New&quot;, monospace; line-height: 24px;">;</span></div><div =
+style=3D"background-color: rgb(30, 30, 30); font-size: 18px; =
+white-space: pre;"><br/></div><div style=3D"background-color: rgb(30, =
+30, 30); font-size: 18px; white-space: pre;"><span style=3D"font-size: =
+18px; color: rgb(156, 220, 254); font-family: Consolas, &quot;Courier =
+New&quot;, monospace; line-height: 24px;">cors_proxy</span></div><div =
+style=3D"background-color: rgb(30, 30, 30); font-size: 18px; =
+white-space: pre;"><span style=3D"font-size: 18px; color: rgb(212, 212, =
+212); font-family: Consolas, &quot;Courier New&quot;, monospace; =
+line-height: 24px;">.</span><span style=3D"font-size: 18px; color: =
+rgb(220, 220, 170); font-family: Consolas, &quot;Courier New&quot;, =
+monospace; line-height: 24px;">createServer</span><span =
+style=3D"font-size: 18px; color: rgb(212, 212, 212); font-family: =
+Consolas, &quot;Courier New&quot;, monospace; line-height: =
+24px;">({</span></div><div style=3D"background-color: rgb(30, 30, 30); =
+font-size: 18px; white-space: pre;"><span style=3D"font-size: 18px; =
+color: rgb(206, 145, 120); font-family: Consolas, &quot;Courier =
+New&quot;, monospace; line-height: 24px;">originWhitelist</span><span =
+style=3D"font-size: 18px; color: rgb(212, 212, 212); font-family: =
+Consolas, &quot;Courier New&quot;, monospace; line-height: 24px;">: =
+[],</span> <span style=3D"font-size: 18px; color: rgb(106, 153, 85); =
+font-family: Consolas, &quot;Courier New&quot;, monospace; line-height: =
+24px;">// Allow all origins</span></div><div style=3D"background-color: =
+rgb(30, 30, 30); font-size: 18px; white-space: pre;"><span =
+style=3D"font-size: 18px; color: rgb(206, 145, 120); font-family: =
+Consolas, &quot;Courier New&quot;, monospace; line-height: =
+24px;">requireHeader</span><span style=3D"font-size: 18px; color: =
+rgb(212, 212, 212); font-family: Consolas, &quot;Courier New&quot;, =
+monospace; line-height: 24px;">: [</span><span style=3D"font-size: 18px; =
+color: rgb(206, 145, 120); font-family: Consolas, &quot;Courier =
+New&quot;, monospace; line-height: 24px;">'origin'</span><span =
+style=3D"font-size: 18px; color: rgb(212, 212, 212); font-family: =
+Consolas, &quot;Courier New&quot;, monospace; line-height: =
+24px;">,</span> <span style=3D"font-size: 18px; color: rgb(206, 145, =
+120); font-family: Consolas, &quot;Courier New&quot;, monospace; =
+line-height: 24px;">'x-requested-with'</span><span style=3D"font-size: =
+18px; color: rgb(212, 212, 212); font-family: Consolas, &quot;Courier =
+New&quot;, monospace; line-height: 24px;">],</span></div><div =
+style=3D"background-color: rgb(30, 30, 30); font-size: 18px; =
+white-space: pre;"><span style=3D"font-size: 18px; color: rgb(206, 145, =
+120); font-family: Consolas, &quot;Courier New&quot;, monospace; =
+line-height: 24px;">removeHeaders</span><span style=3D"font-size: 18px; =
+color: rgb(212, 212, 212); font-family: Consolas, &quot;Courier =
+New&quot;, monospace; line-height: 24px;">: [</span><span =
+style=3D"font-size: 18px; color: rgb(206, 145, 120); font-family: =
+Consolas, &quot;Courier New&quot;, monospace; line-height: =
+24px;">'cookie'</span><span style=3D"font-size: 18px; color: rgb(212, =
+212, 212); font-family: Consolas, &quot;Courier New&quot;, monospace; =
+line-height: 24px;">,</span> <span style=3D"font-size: 18px; color: =
+rgb(206, 145, 120); font-family: Consolas, &quot;Courier New&quot;, =
+monospace; line-height: 24px;">'cookie2'</span><span style=3D"font-size: =
+18px; color: rgb(212, 212, 212); font-family: Consolas, &quot;Courier =
+New&quot;, monospace; line-height: 24px;">]</span></div><div =
+style=3D"background-color: rgb(30, 30, 30); font-size: 18px; =
+white-space: pre;"><span style=3D"font-size: 18px; color: rgb(212, 212, =
+212); font-family: Consolas, &quot;Courier New&quot;, monospace; =
+line-height: 24px;">})</span></div><div style=3D"background-color: =
+rgb(30, 30, 30); font-size: 18px; white-space: pre;"><span =
+style=3D"font-size: 18px; color: rgb(212, 212, 212); font-family: =
+Consolas, &quot;Courier New&quot;, monospace; line-height: =
+24px;">.</span><span style=3D"font-size: 18px; color: rgb(220, 220, =
+170); font-family: Consolas, &quot;Courier New&quot;, monospace; =
+line-height: 24px;">listen</span><span style=3D"font-size: 18px; color: =
+rgb(212, 212, 212); font-family: Consolas, &quot;Courier New&quot;, =
+monospace; line-height: 24px;">(</span><span style=3D"font-size: 18px; =
+color: rgb(156, 220, 254); font-family: Consolas, &quot;Courier =
+New&quot;, monospace; line-height: 24px;">port</span><span =
+style=3D"font-size: 18px; color: rgb(212, 212, 212); font-family: =
+Consolas, &quot;Courier New&quot;, monospace; line-height: =
+24px;">,</span> <span style=3D"font-size: 18px; color: rgb(156, 220, =
+254); font-family: Consolas, &quot;Courier New&quot;, monospace; =
+line-height: 24px;">host</span><span style=3D"font-size: 18px; color: =
+rgb(212, 212, 212); font-family: Consolas, &quot;Courier New&quot;, =
+monospace; line-height: 24px;">,</span> <span style=3D"font-size: 18px; =
+color: rgb(86, 156, 214); font-family: Consolas, &quot;Courier =
+New&quot;, monospace; line-height: 24px;">function</span><span =
+style=3D"font-size: 18px; color: rgb(212, 212, 212); font-family: =
+Consolas, &quot;Courier New&quot;, monospace; line-height: 24px;">() =
+{</span></div><div style=3D"background-color: rgb(30, 30, 30); =
+font-size: 18px; white-space: pre;"><span style=3D"font-size: 18px; =
+color: rgb(78, 201, 176); font-family: Consolas, &quot;Courier =
+New&quot;, monospace; line-height: 24px;">console</span><span =
+style=3D"font-size: 18px; color: rgb(212, 212, 212); font-family: =
+Consolas, &quot;Courier New&quot;, monospace; line-height: =
+24px;">.</span><span style=3D"font-size: 18px; color: rgb(220, 220, =
+170); font-family: Consolas, &quot;Courier New&quot;, monospace; =
+line-height: 24px;">log</span><span style=3D"font-size: 18px; color: =
+rgb(212, 212, 212); font-family: Consolas, &quot;Courier New&quot;, =
+monospace; line-height: 24px;">(</span><span style=3D"font-size: 18px; =
+color: rgb(206, 145, 120); font-family: Consolas, &quot;Courier =
+New&quot;, monospace; line-height: 24px;">'Running CORS Anywhere =
+on</span> <span style=3D"font-size: 18px; color: rgb(206, 145, 120); =
+font-family: Consolas, &quot;Courier New&quot;, monospace; line-height: =
+24px;">'</span> <span style=3D"font-size: 18px; color: rgb(212, 212, =
+212); font-family: Consolas, &quot;Courier New&quot;, monospace; =
+line-height: 24px;">+</span> <span style=3D"font-size: 18px; color: =
+rgb(156, 220, 254); font-family: Consolas, &quot;Courier New&quot;, =
+monospace; line-height: 24px;">host</span> <span style=3D"font-size: =
+18px; color: rgb(212, 212, 212); font-family: Consolas, &quot;Courier =
+New&quot;, monospace; line-height: 24px;">+</span> <span =
+style=3D"font-size: 18px; color: rgb(206, 145, 120); font-family: =
+Consolas, &quot;Courier New&quot;, monospace; line-height: =
+24px;">':'</span> <span style=3D"font-size: 18px; color: rgb(212, 212, =
+212); font-family: Consolas, &quot;Courier New&quot;, monospace; =
+line-height: 24px;">+</span> <span style=3D"font-size: 18px; color: =
+rgb(156, 220, 254); font-family: Consolas, &quot;Courier New&quot;, =
+monospace; line-height: 24px;">port</span><span style=3D"font-size: =
+18px; color: rgb(212, 212, 212); font-family: Consolas, &quot;Courier =
+New&quot;, monospace; line-height: 24px;">);</span></div><div =
+style=3D"background-color: rgb(30, 30, 30); font-size: 18px; =
+white-space: pre;"><span style=3D"font-size: 18px; color: rgb(212, 212, =
+212); font-family: Consolas, &quot;Courier New&quot;, monospace; =
+line-height: 24px;">});</span></div><div =
+style=3D"background-color:rgb(30, 30, 30);color:rgb(212, 212, =
+212);font-family:Consolas, &quot;Courier New&quot;, =
+monospace;font-size:18px;line-height:24px;white-space:pre;"></div><div =
+style=3D"background-color:rgb(30, 30, 30);color:rgb(212, 212, =
+212);font-family:Consolas, &quot;Courier New&quot;, =
+monospace;font-size:18px;line-height:24px;white-space:pre;"></div><div><s=
+pan style=3D"font-size: 14pt;"><br/></span></div><div><span =
+style=3D"font-size: 14pt; color: rgb(86, 156, 214); font-family: =
+Consolas;">package.json=C2=A0</span></div><div =
+style=3D"background-color: rgb(30, 30, 30); font-size: 18px; =
+white-space: pre;"><span style=3D"font-size: 18px; color: rgb(156, 220, =
+254); font-family: Consolas, &quot;Courier New&quot;, monospace; =
+line-height: 24px;">&quot;scripts&quot;</span><span style=3D"font-size: =
+18px; color: rgb(212, 212, 212); font-family: Consolas, &quot;Courier =
+New&quot;, monospace; line-height: 24px;">: {</span></div><div =
+style=3D"background-color: rgb(30, 30, 30); font-size: 18px; =
+white-space: pre;"><span style=3D"font-size: 18px; color: rgb(156, 220, =
+254); font-family: Consolas, &quot;Courier New&quot;, monospace; =
+line-height: 24px;">&quot;start&quot;</span><span style=3D"font-size: =
+18px; color: rgb(212, 212, 212); font-family: Consolas, &quot;Courier =
+New&quot;, monospace; line-height: 24px;">:</span> <span =
+style=3D"font-size: 18px; color: rgb(206, 145, 120); font-family: =
+Consolas, &quot;Courier New&quot;, monospace; line-height: =
+24px;">&quot;ui5 serve --port 8083&quot;</span><span style=3D"font-size: =
+18px; color: rgb(212, 212, 212); font-family: Consolas, &quot;Courier =
+New&quot;, monospace; line-height: 24px;">,</span></div><div =
+style=3D"background-color: rgb(30, 30, 30); font-size: 18px; =
+white-space: pre;"><span style=3D"font-size: 18px; color: rgb(156, 220, =
+254); font-family: Consolas, &quot;Courier New&quot;, monospace; =
+line-height: 24px;">&quot;serve&quot;</span><span style=3D"font-size: =
+18px; color: rgb(212, 212, 212); font-family: Consolas, &quot;Courier =
+New&quot;, monospace; line-height: 24px;">:</span> <span =
+style=3D"font-size: 18px; color: rgb(206, 145, 120); font-family: =
+Consolas, &quot;Courier New&quot;, monospace; line-height: =
+24px;">&quot;ui5 serve&quot;</span><span style=3D"font-size: 18px; =
+color: rgb(212, 212, 212); font-family: Consolas, &quot;Courier =
+New&quot;, monospace; line-height: 24px;">,</span></div><div =
+style=3D"background-color: rgb(30, 30, 30); font-size: 18px; =
+white-space: pre;"><span style=3D"font-size: 18px; color: rgb(156, 220, =
+254); font-family: Consolas, &quot;Courier New&quot;, monospace; =
+line-height: 24px;">&quot;proxy&quot;</span><span style=3D"font-size: =
+18px; color: rgb(212, 212, 212); font-family: Consolas, &quot;Courier =
+New&quot;, monospace; line-height: 24px;">:</span> <span =
+style=3D"font-size: 18px; color: rgb(206, 145, 120); font-family: =
+Consolas, &quot;Courier New&quot;, monospace; line-height: =
+24px;">&quot;node proxy.js&quot;</span><span style=3D"font-size: 18px; =
+color: rgb(212, 212, 212); font-family: Consolas, &quot;Courier =
+New&quot;, monospace; line-height: 24px;">,</span></div><div><span =
+style=3D"font-size: 14pt; color: rgb(86, 156, 214); font-family: =
+Consolas;">npm run proxy/</span><span style=3D"font-size: 14pt; color: =
+rgb(86, 156, 214); font-family: =
+Consolas;">proxy.js</span></div><div><span style=3D"font-size: =
+14pt;"><br/></span></div><div><span style=3D"font-size: =
+14pt;"><br/></span></div><div style=3D"background-color: rgb(30, 30, =
+30); font-size: 18px; white-space: pre;"><span style=3D"font-size: 18px; =
+color: rgb(86, 156, 214); font-family: Consolas, &quot;Courier =
+New&quot;, monospace; line-height: 24px;">var</span> <span =
+style=3D"font-size: 18px; color: rgb(156, 220, 254); font-family: =
+Consolas, &quot;Courier New&quot;, monospace; line-height: =
+24px;">RootUrl</span> <span style=3D"font-size: 18px; color: rgb(212, =
+212, 212); font-family: Consolas, &quot;Courier New&quot;, monospace; =
+line-height: 24px;">=3D</span></div><div style=3D"background-color: =
+rgb(30, 30, 30); font-size: 18px; white-space: pre;"><span =
+style=3D"font-size: 18px; color: rgb(206, 145, 120); font-family: =
+Consolas, &quot;Courier New&quot;, monospace; line-height: =
+24px;">'</span><a =
+href=3D"http://localhost:8081/http://ctun34664813a.apj.global.corp.sap:80=
+80/odata.svc/" style=3D"font-size: 18px; font-family: Consolas, =
+&quot;Courier New&quot;, monospace; line-height: =
+24px;">http://localhost:8081/http://ctun34664813a.apj.global.corp.sap:808=
+0/odata.svc/</a><span style=3D"font-size: 18px; color: rgb(206, 145, =
+120); font-family: Consolas, &quot;Courier New&quot;, monospace; =
+line-height: 24px;">'</span><span style=3D"font-size: 18px; color: =
+rgb(212, 212, 212); font-family: Consolas, &quot;Courier New&quot;, =
+monospace; line-height: 24px;">;</span></div><div><span =
+style=3D"font-size: 14pt;"><br/></span></div><div><span =
+style=3D"font-size: 14pt;"><br/></span></div><div><span =
+style=3D"font-size: =
+14pt;"><br/></span></div></span>=0A</div></body></html>
+ 
